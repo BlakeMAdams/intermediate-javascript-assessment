@@ -174,6 +174,6 @@ var theAnswer = "Unknown";
 
 // CODE HERE...
 
-// var promiseCatcher = function(promise).then( theAnswer = Promise.resolve)
-// var promiseCatcher = function(promise){ (promise)=> { theAnswer = promise.resolve }}
-// function promiseCatcher(promise){var yes = promise.resolve}.then( theAnswer = yes)
+var promiseCatcher = function(promise).then( theAnswer = Promise.resolve)
+var promiseCatcher = function(promise){ (promise)=> { theAnswer = promise.resolve }}
+function promiseCatcher(promise){var yes = promise.resolve}.then( theAnswer = yes)
